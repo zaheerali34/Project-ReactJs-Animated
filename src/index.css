@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: file1;
+  src: url(./font/file1.woff2);
+}
+
+@font-face {
+  font-family: file2;
+  src: url(./font/file2.woff2);
+}
+
+@font-face {
+  font-family: file3;
+  src: url(./font/file3.woff2);
+}
+
+@font-face {
+  font-family: file4;
+  src: url(./font/file4.woff2);
+}
+
+@font-face {
+  font-family: file5;
+  src: url(./font/file5.woff2);
+}
+
+@font-face {
+  font-family: madefor;
+  src: url(./font/madefor-text.var.original.woff2);
+}
+
