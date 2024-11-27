@@ -8,7 +8,7 @@ function Header() {
         <button className="bg-black px-8 py-3 rounded-[2rem] border-[5px] text-white border-white hover:bg-slate-500 transition duration-[0.4s]">
           Hire me
         </button>
-        <i class="ri-draggable text-white text-[1.5rem] ml-2"></i>
+        <i className="ri-draggable text-white text-[1.5rem] ml-2"></i>
       </div>
 
       <div className="py-[1.7rem] px-[3rem]">
