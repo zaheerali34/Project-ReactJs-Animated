@@ -10,8 +10,8 @@ function Home() {
   const [yVal, setYVal] = useState(0);
 
   const mouse = (e) => {
-    setXVal((e.clientX - textRef.current.getBoundingClientRect().x - textRef.current.getBoundingClientRect().width/2)/60);
-    setYVal(-(e.clientY - textRef.current.getBoundingClientRect().y - textRef.current.getBoundingClientRect().height/2)/20);
+    setXVal((e.clientX - textRef.current.getBoundingClientRect().x - textRef.current.getBoundingClientRect().width/2)/50);
+    setYVal(-(e.clientY - textRef.current.getBoundingClientRect().y - textRef.current.getBoundingClientRect().height/2)/10);
   };
 
   useGSAP(function (){

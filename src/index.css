@@ -36,3 +36,13 @@
   perspective: 1000px;
   position: relative;
 }
+
+#sectionTwo {
+  perspective: 3000px;
+  position: relative;
+  overflow: hidden;
+}
+
+#rotateText {
+  transform-origin: 100% 70%;
+}
