@@ -14,7 +14,7 @@ function Home() {
     setYVal(-(e.clientY - textRef.current.getBoundingClientRect().y - textRef.current.getBoundingClientRect().height/2)/10);
   };
 
-  useGSAP(function (){
+  useGSAP(function (){ 
     gsap.to(textRef.current, {
       transform: `rotateX(${yVal}deg) rotateY(${xVal}deg)`,
       duration: 3,
