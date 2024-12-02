@@ -46,3 +46,13 @@
 #rotateText {
   transform-origin: 100% 70%;
 }
+
+#sectionThree {
+  perspective: 3000px;
+  position: relative;
+  overflow: hidden;
+}
+
+#Text {
+  transform-origin: 100% 70%;
+}
