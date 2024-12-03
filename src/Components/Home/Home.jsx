@@ -25,18 +25,18 @@ function Home() {
   return (
     <div onMouseMove={(e)=> {
       mouse(e);
-    }} className="w-full relative h-screen p-4">
-      <div className="pageOne w-full h-full relative bg-black rounded-[30px] shadow-md shadow-slate-500 bg-[url(https://static.wixstatic.com/media/f1c650_678c0ceab5194893872c60fa3be4bcdc~mv2.jpg/v1/fill/w_1861,h_933,fp_0.69_0.64,q_85,usm_0.66_1.00_0.01,enc_auto/ANZO.jpg)] bg-center bg-cover">
+    }} className="w-full relative h-screen p-4 max-sm:p-2">
+      <div className="pageOne w-full h-full relative bg-black rounded-[30px] max-sm:rounded-[20px] shadow-md shadow-slate-500 bg-[url(https://static.wixstatic.com/media/f1c650_678c0ceab5194893872c60fa3be4bcdc~mv2.jpg/v1/fill/w_1861,h_933,fp_0.69_0.64,q_85,usm_0.66_1.00_0.01,enc_auto/ANZO.jpg)] bg-center bg-cover">
         <Header />
         <div
           ref={textRef}
-          className="title w-[50%] uppercase leading-[80px] mt-[10rem] pl-[3.5rem]"
+          className="title w-[50%] uppercase leading-[80px] mt-[10rem] pl-[3.5rem] max-md:pl-[2rem] max-[992px]:w-full"
         >
-          <h1 className="text-[4rem] font-[file2] text-white ">
+          <h1 className="text-[4rem] font-[file2] text-white max-[992px]:text-[2rem]">
             I AM <span className="text-black">dark mode</span>™
           </h1>
-          <h1 className="font-[file4] text-[7rem] text-white">Designer</h1>
-          <h1 className="font-[file2] text-[4rem] text-white">to hire</h1>
+          <h1 className="font-[file4] text-[7rem] text-white max-[992px]:text-[3rem]">Designer</h1>
+          <h1 className="font-[file2] text-[4rem] text-white max-[992px]:text-[2.5rem]">to hire</h1>
         </div>
         <TextButtom />
       </div>

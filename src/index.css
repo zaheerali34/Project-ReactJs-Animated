@@ -56,3 +56,9 @@
 #Text {
   transform-origin: 100% 70%;
 }
+
+@media screen and (max-width: 992px) {
+  .title {
+    line-height: 50px;
+  }
+}

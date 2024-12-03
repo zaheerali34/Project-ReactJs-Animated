@@ -4,8 +4,8 @@ import "remixicon/fonts/remixicon.css";
 function Header() {
   return (
     <>
-      <div className="w-full flex items-center justify-end fixed py-[3rem] px-[5rem]">
-        <button className="bg-black px-8 py-3 rounded-[2rem] border-[5px] text-white border-white hover:bg-slate-500 transition duration-[0.4s]">
+      <div className="w-full flex items-center justify-end absolute py-[3rem] px-[5rem] max-[992px]:px-4">
+        <button className="bg-black px-8 py-3 rounded-[2rem] border-[5px] text-white border-white hover:bg-slate-500 transition duration-[0.4s] max-md:py-2 max-md:px-4 max-md:text-sm max-sm:py-1">
           Hire me
         </button>
         <i className="ri-draggable text-white text-[1.5rem] ml-2"></i>

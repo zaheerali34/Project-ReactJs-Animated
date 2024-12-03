@@ -22,8 +22,8 @@ function Pages() {
   });
 
   return (
-    <div id="sectionTwo" className="w-full h-full text-center my-4">
-      <p className="text-xl">© anzo.studio 2024 | designed and developed</p>
+    <div id="sectionTwo" className="w-full h-full text-center my-4 px-8">
+      <p className="text-xl max-sm:text-sm">© anzo.studio 2024 | designed and developed</p>
 
       <div className="rotateText h-[30vw] leading-[40rem] mt-[3rem]">
         <h1 className="text-[42vw] font-[file5] uppercase">impactfui</h1>
@@ -49,7 +49,7 @@ function Pages() {
         <h1 className="text-[42vw] font-[file5] uppercase">works</h1>
       </div>
 
-      <div className="flex items-center justify-center mt-[10rem] scale-[0.6]">
+      <div className="flex items-center justify-center mt-[10rem] scale-[0.6] max-md:scale-[0.8]">
       <svg preserveAspectRatio="xMidYMid meet" data-bbox="4 0 2028.339 83" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2037 91" height="91" width="2037" data-type="ugc" role="img" aria-label="Tesla, Figma, Wix Studio, Google+, BeHance monochrome Logo Design by Anzo Studio ">
     <g>
         <g filter="url(#b3e3b32c-99fe-4d7b-a6f9-ff5000655d82_comp-lmyox36t2)">
@@ -215,7 +215,7 @@ function Pages() {
     </g>
       </svg>
       </div>
-      <div className="w-1/4 h-[2.5px] bg-zinc-500 relative left-1/2 -translate-x-1/2 mt-8"></div>
+      <div className="w-1/4 h-[2px] bg-zinc-500 relative left-1/2 -translate-x-1/2 mt-8 max-md:w-full px-8  "></div>
     </div>
   );
 }
