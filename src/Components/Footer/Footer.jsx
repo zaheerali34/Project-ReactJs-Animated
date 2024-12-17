@@ -33,7 +33,7 @@ function Footer() {
         </div>
 
         <div className="w-2/4 h-[50vh] flex items-center gap-8 max-[992px]:w-full max-[992px]:pl-[2rem]">
-          <img src="../images/World.avif" alt="" className="icone w-[7rem]" />
+          <img src="https://static.wixstatic.com/media/f1c650_7a84fb38cb2d4bebb8b34004f66d4c3d~mv2.png/v1/fill/w_66,h_66,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/World%20Contact.pngs" alt="" className="icone w-[7rem]" />
           <div className="w-[3px] h-[7rem] bg-white"></div>
           <div>
             <h2 className="text-zinc-400 text-xl max-sm:text-[1rem]">WORLD SERVICE</h2>
